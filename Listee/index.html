@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/ff89437702.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Listee</title>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+
+                    <button class="menu-btn" type="button">
+                        <span class="btn-line"></span>
+                        <span class="btn-line"></span>
+                        <span class="btn-line"></span>
+                        <span class="btn-line"></span>
+                    </button>
+
+                    <div class="nav__left">
+                        <a href="#" class="logo">
+                            <img src="img/logo.svg" alt="" class="img__logo">
+                        </a>
+                        <ul class="nav__items">
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Home</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Listings</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Pages</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav__right">
+                        <div class="nav__right-profile">
+                            <img src="img/nav_profile.png" alt="" class="img__nav-profile">
+                            <p class="nav__profile-name">Nader Azzeh</p>
+                        </div>
+                        <a href="#" class="btn btn--add">Add Listing</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+
+            <section class="explore">
+                <div class="container">
+                    <div class="explore__wrapper">
+                        <div class="explore__info">
+                            <h1 class="explore__info-title">Explore All Available Listings</h1>
+                            <p class="explore__info-descr">There are plenty of location-specific and industry-specific business listing sites where you can submit your data.</p>
+                            <div class="explore__search">
+                                <div class="explore__search-item">
+                                    <img src="img/search_category.png" alt="" class="search__item">
+                                    <div class="search__item-info">
+                                        <p class="search__item-choose">Categories</p>
+                                        <p class="search__item-example">Choose Category</p>
+                                    </div>
+                                </div>
+                                <div class="explore__search-item">
+                                    <img src="img/search_location.png" alt="" class="search__item">
+                                    <div class="search__item-info">
+                                        <p class="search__item-choose">Location</p>
+                                        <p class="search__item-example">Liyakota, Indonesia</p>
+                                    </div>
+                                </div>
+                                <div class="explore__search-btns">
+                                    <a href="" class="btn btn--explore">Explore</a>
+                                </div>
+                            </div>
+                            <p class="explore__info-subtext"><span>Popular:</span> Hotel, Businees, Wedding, Office, Healthcare, Lifestyle</p>
+                        </div>
+                        <div class="explore__photo">
+                            <div class="explore__photo-item">
+                                <img src="img/explore_item-1.png" alt="" class="img__explore-ph">
+                            </div>
+                            <div class="explore__photo-contact">
+                                <a href="tel:6530025656376" class="explore__contact-tel">+65-3002 56 56 376</a>
+                                <p class="explore__contact-descr">If you're in a hurry, quick call for us. We are here 24/7 to help you asap.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="counter">
+                <div class="container">
+                    <div class="counter__content">
+                        <h2 class="counter__content-title">A Comprehensive Directory Database</h2>
+                        <div class="counter__content-items">
+                            <div class="counter__content-item">
+                                <p class="counter__item-count">8k+</p>
+                                <p class="counter__item-descr">Total Listings</p>
+                            </div>
+                            <div class="counter__content-item">
+                                <p class="counter__item-count">5.7k</p>
+                                <p class="counter__item-descr">Places in the world</p>
+                            </div>
+                            <div class="counter__content-item">
+                                <p class="counter__item-count">9.9k</p>
+                                <p class="counter__item-descr">Happy Peoples</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="popular">
+                <div class="container">
+                    <div class="popular__header">
+                        <h2 class="popular__header-title">Popular Listings</h2>
+                        <p class="popular__header-descr">Morbi mollis vestibulum sollicitudin. Nunc in eros a justo facilisis rutrum. Aenean id ullamcorper libero Vestibulum imperdiet nibh vel magna lacinia commodo ultricies.</p>
+                    </div>
+                <div class="popular__slider">
+                        <!-- Slider main container -->
+                    <div class="swiper">
+                            <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="popular__item">
+                                    <div class="popular__item-content">
+                                        <img src="img/popular_item-1.png" alt="" class="img__popular-item">
+                                        <div class="popular__item-info">
+                                            <div class="popular__info-prices">
+                                                <img src="img/rating.png" alt="" class="img__popular-rating">
+                                                <p class="popular__prices-price">$175<span>/day</span></p>
+                                            </div>
+                                            <h3 class="popular__info-title">Hard Rock Hotel & Casino</h3>
+                                            <p class="popular__info-descr">Dolor sit amet consectetur adipisicing elit. Reprehenderit, illo ex esse...</p>
+                                            <div class="line"></div>
+                                            <p class="popular__info-place">Punta Cana, Dominican Republic</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popular__item">
+                                    <div class="popular__item-content">
+                                        <img src="img/popular_item-2.png" alt="" class="img__popular-item">
+                                        <div class="popular__item-info">
+                                            <div class="popular__info-prices">
+                                                <img src="img/rating.png" alt="" class="img__popular-rating">
+                                                <p class="popular__prices-price">$175<span>/day</span></p>
+                                            </div>
+                                            <h3 class="popular__info-title">Hard Rock Hotel & Casino</h3>
+                                            <p class="popular__info-descr">Dolor sit amet consectetur adipisicing elit. Reprehenderit, illo ex esse...</p>
+                                            <div class="line"></div>
+                                            <p class="popular__info-place">Punta Cana, Dominican Republic</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popular__item">
+                                    <div class="popular__item-content">
+                                        <img src="img/popular_item-3.png" alt="" class="img__popular-item">
+                                        <div class="popular__item-info">
+                                            <div class="popular__info-prices">
+                                                <img src="img/rating.png" alt="" class="img__popular-rating">
+                                                <p class="popular__prices-price">$175<span>/day</span></p>
+                                            </div>
+                                            <h3 class="popular__info-title">Hard Rock Hotel & Casino</h3>
+                                            <p class="popular__info-descr">Dolor sit amet consectetur adipisicing elit. Reprehenderit, illo ex esse...</p>
+                                            <div class="line"></div>
+                                            <p class="popular__info-place">Punta Cana, Dominican Republic</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popular__item">
+                                    <div class="popular__item-content">
+                                        <img src="img/popular_item-2.png" alt="" class="img__popular-item">
+                                        <div class="popular__item-info">
+                                            <div class="popular__info-prices">
+                                                <img src="img/rating.png" alt="" class="img__popular-rating">
+                                                <p class="popular__prices-price">$175<span>/day</span></p>
+                                            </div>
+                                            <h3 class="popular__info-title">Hard Rock Hotel & Casino</h3>
+                                            <p class="popular__info-descr">Dolor sit amet consectetur adipisicing elit. Reprehenderit, illo ex esse...</p>
+                                            <div class="line"></div>
+                                            <p class="popular__info-place">Punta Cana, Dominican Republic</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popular__item">
+                                    <div class="popular__item-content">
+                                        <img src="img/popular_item-1.png" alt="" class="img__popular-item">
+                                        <div class="popular__item-info">
+                                            <div class="popular__info-prices">
+                                                <img src="img/rating.png" alt="" class="img__popular-rating">
+                                                <p class="popular__prices-price">$175<span>/day</span></p>
+                                            </div>
+                                            <h3 class="popular__info-title">Hard Rock Hotel & Casino</h3>
+                                            <p class="popular__info-descr">Dolor sit amet consectetur adipisicing elit. Reprehenderit, illo ex esse...</p>
+                                            <div class="line"></div>
+                                            <p class="popular__info-place">Punta Cana, Dominican Republic</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popular__item">
+                                    <div class="popular__item-content">
+                                        <img src="img/popular_item-3.png" alt="" class="img__popular-item">
+                                        <div class="popular__item-info">
+                                            <div class="popular__info-prices">
+                                                <img src="img/rating.png" alt="" class="img__popular-rating">
+                                                <p class="popular__prices-price">$175<span>/day</span></p>
+                                            </div>
+                                            <h3 class="popular__info-title">Hard Rock Hotel & Casino</h3>
+                                            <p class="popular__info-descr">Dolor sit amet consectetur adipisicing elit. Reprehenderit, illo ex esse...</p>
+                                            <div class="line"></div>
+                                            <p class="popular__info-place">Punta Cana, Dominican Republic</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            ...
+                        </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="browse">
+                <div class="container">
+                    <div class="browse__wrapper">
+                        <div class="browse__info">
+                            <h2 class="browse__info-title">Browse The Most Desirable Categories</h2>
+                            <a href="#" class="btn btn--pink">Browse All</a>
+                        </div>
+                        <div class="browse__categories">
+                            <div class="browse__categories-items">
+                                <div class="browse__categories-item">
+                                    <img src="img/categories_icon-1.png" alt="" class="img__categories-item">
+                                    <img src="img/categories_icon-hidden.png" alt="" class="img__categories-item img__categories-item--hidden">
+                                    <h3 class="browse__categories-title">Hotel</h3>
+                                    <p class="browse__categories-descr">32 Listings</p>
+                                </div>
+                                <div class="browse__categories-item">
+                                    <img src="img/categories_icon-2.png" alt="" class="img__categories-item">
+                                    <img src="img/categories_icon-hidden.png" alt="" class="img__categories-item img__categories-item--hidden">
+                                    <h3 class="browse__categories-title">Hotel</h3>
+                                    <p class="browse__categories-descr">32 Listings</p>
+                                </div>
+                                <div class="browse__categories-item">
+                                    <img src="img/categories_icon-3.png" alt="" class="img__categories-item">
+                                    <img src="img/categories_icon-hidden.png" alt="" class="img__categories-item img__categories-item--hidden">
+                                    <h3 class="browse__categories-title">Hotel</h3>
+                                    <p class="browse__categories-descr">32 Listings</p>
+                                </div>
+                                <div class="browse__categories-item">
+                                    <img src="img/categories_icon-4.png" alt="" class="img__categories-item">
+                                    <img src="img/categories_icon-hidden.png" alt="" class="img__categories-item img__categories-item--hidden">
+                                    <h3 class="browse__categories-title">Hotel</h3>
+                                    <p class="browse__categories-descr">32 Listings</p>
+                                </div>
+                                <div class="browse__categories-item">
+                                    <img src="img/categories_icon-2.png" alt="" class="img__categories-item">
+                                    <img src="img/categories_icon-hidden.png" alt="" class="img__categories-item img__categories-item--hidden">
+                                    <h3 class="browse__categories-title">Hotel</h3>
+                                    <p class="browse__categories-descr">32 Listings</p>
+                                </div>
+                                <div class="browse__categories-item">
+                                    <img src="img/categories_icon-4.png" alt="" class="img__categories-item">
+                                    <img src="img/categories_icon-hidden.png" alt="" class="img__categories-item img__categories-item--hidden">
+                                    <h3 class="browse__categories-title">Hotel</h3>
+                                    <p class="browse__categories-descr">32 Listings</p>
+                                </div>
+                                <div class="browse__categories-item">
+                                    <img src="img/categories_icon-3.png" alt="" class="img__categories-item">
+                                    <img src="img/categories_icon-hidden.png" alt="" class="img__categories-item img__categories-item--hidden">
+                                    <h3 class="browse__categories-title">Hotel</h3>
+                                    <p class="browse__categories-descr">32 Listings</p>
+                                </div>
+                                <div class="browse__categories-item">
+                                    <img src="img/categories_icon-1.png" alt="" class="img__categories-item">
+                                    <img src="img/categories_icon-hidden.png" alt="" class="img__categories-item img__categories-item--hidden">
+                                    <h3 class="browse__categories-title">Hotel</h3>
+                                    <p class="browse__categories-descr">32 Listings</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="listings">
+                <div class="container">
+                    <div class="popular__header">
+                        <h2 class="popular__header-title">Popular Listings</h2>
+                        <p class="popular__header-descr">Morbi mollis vestibulum sollicitudin. Nunc in eros a justo facilisis rutrum. Aenean id ullamcorper libero Vestibulum imperdiet nibh vel magna lacinia commodo ultricies.</p>
+                    </div>
+                    <div class="listings__tabs">
+                        <a href="#" class="listings__tabs-link">All</a>
+                        <a href="#" class="listings__tabs-link">Hotel</a>
+                        <a href="#" class="listings__tabs-link">Wedding</a>
+                        <a href="#" class="listings__tabs-link">Business</a>
+                        <a href="#" class="listings__tabs-link">Hospital</a>
+                        <a href="#" class="listings__tabs-link">Office</a>
+                    </div>
+                    <div class="listings__items">
+                        <div class="listings__item">
+                            <div class="listings__item-content">
+                               <div class="listings__content-top">
+                                    <img src="img/listings_item-1.png" alt="" class="img__listings-item">
+                                    <div class="listings__content-about">
+                                        <a href="#" class="btn btn--orange">Business</a>
+                                        <div class="listings__about-rating">
+                                            <img src="img/star.png" alt="" class="img__listings-rating">
+                                            <p class="listings__rating-rating">4.8</p>
+                                        </div>
+                                    </div>
+                               </div>
+                               <div class="listings__content-bottom">
+                                    <div class="listings__bottom-header">
+                                        <h3 class="listings__bottom-title">AJ Corporation</h3>
+                                        <p class="listings__bottom-price">$175<span>/day</span></p>
+                                    </div>
+                                    <a href="#" class="listings__bottom-link listings__bottom-link--place">Washington Ave. Manchester, Kentucky</a>
+                                    <a href="tel:912552678790" class="listings__bottom-link listings__bottom-link--tel">91 255 267 8790</a>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="listings__item">
+                            <div class="listings__item-content">
+                               <div class="listings__content-top">
+                                    <img src="img/listings_item-1.png" alt="" class="img__listings-item">
+                                    <div class="listings__content-about">
+                                        <a href="#" class="btn btn--orange">Business</a>
+                                        <div class="listings__about-rating">
+                                            <img src="img/star.png" alt="" class="img__listings-rating">
+                                            <p class="listings__rating-rating">4.8</p>
+                                        </div>
+                                    </div>
+                               </div>
+                               <div class="listings__content-bottom">
+                                    <div class="listings__bottom-header">
+                                        <h3 class="listings__bottom-title">AJ Corporation</h3>
+                                        <p class="listings__bottom-price">$175<span>/day</span></p>
+                                    </div>
+                                    <a href="#" class="listings__bottom-link listings__bottom-link--place">Washington Ave. Manchester, Kentucky</a>
+                                    <a href="tel:912552678790" class="listings__bottom-link listings__bottom-link--tel">91 255 267 8790</a>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="listings__item">
+                            <div class="listings__item-content">
+                               <div class="listings__content-top">
+                                    <img src="img/listings_item-1.png" alt="" class="img__listings-item">
+                                    <div class="listings__content-about">
+                                        <a href="#" class="btn btn--orange">Business</a>
+                                        <div class="listings__about-rating">
+                                            <img src="img/star.png" alt="" class="img__listings-rating">
+                                            <p class="listings__rating-rating">4.8</p>
+                                        </div>
+                                    </div>
+                               </div>
+                               <div class="listings__content-bottom">
+                                    <div class="listings__bottom-header">
+                                        <h3 class="listings__bottom-title">AJ Corporation</h3>
+                                        <p class="listings__bottom-price">$175<span>/day</span></p>
+                                    </div>
+                                    <a href="#" class="listings__bottom-link listings__bottom-link--place">Washington Ave. Manchester, Kentucky</a>
+                                    <a href="tel:912552678790" class="listings__bottom-link listings__bottom-link--tel">91 255 267 8790</a>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="listings__item">
+                            <div class="listings__item-content">
+                               <div class="listings__content-top">
+                                    <img src="img/listings_item-1.png" alt="" class="img__listings-item">
+                                    <div class="listings__content-about">
+                                        <a href="#" class="btn btn--orange">Business</a>
+                                        <div class="listings__about-rating">
+                                            <img src="img/star.png" alt="" class="img__listings-rating">
+                                            <p class="listings__rating-rating">4.8</p>
+                                        </div>
+                                    </div>
+                               </div>
+                               <div class="listings__content-bottom">
+                                    <div class="listings__bottom-header">
+                                        <h3 class="listings__bottom-title">AJ Corporation</h3>
+                                        <p class="listings__bottom-price">$175<span>/day</span></p>
+                                    </div>
+                                    <a href="#" class="listings__bottom-link listings__bottom-link--place">Washington Ave. Manchester, Kentucky</a>
+                                    <a href="tel:912552678790" class="listings__bottom-link listings__bottom-link--tel">91 255 267 8790</a>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="listings__item">
+                            <div class="listings__item-content">
+                               <div class="listings__content-top">
+                                    <img src="img/listings_item-1.png" alt="" class="img__listings-item">
+                                    <div class="listings__content-about">
+                                        <a href="#" class="btn btn--orange">Business</a>
+                                        <div class="listings__about-rating">
+                                            <img src="img/star.png" alt="" class="img__listings-rating">
+                                            <p class="listings__rating-rating">4.8</p>
+                                        </div>
+                                    </div>
+                               </div>
+                               <div class="listings__content-bottom">
+                                    <div class="listings__bottom-header">
+                                        <h3 class="listings__bottom-title">AJ Corporation</h3>
+                                        <p class="listings__bottom-price">$175<span>/day</span></p>
+                                    </div>
+                                    <a href="#" class="listings__bottom-link listings__bottom-link--place">Washington Ave. Manchester, Kentucky</a>
+                                    <a href="tel:912552678790" class="listings__bottom-link listings__bottom-link--tel">91 255 267 8790</a>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="listings__item">
+                            <div class="listings__item-content">
+                               <div class="listings__content-top">
+                                    <img src="img/listings_item-1.png" alt="" class="img__listings-item">
+                                    <div class="listings__content-about">
+                                        <a href="#" class="btn btn--orange">Business</a>
+                                        <div class="listings__about-rating">
+                                            <img src="img/star.png" alt="" class="img__listings-rating">
+                                            <p class="listings__rating-rating">4.8</p>
+                                        </div>
+                                    </div>
+                               </div>
+                               <div class="listings__content-bottom">
+                                    <div class="listings__bottom-header">
+                                        <h3 class="listings__bottom-title">AJ Corporation</h3>
+                                        <p class="listings__bottom-price">$175<span>/day</span></p>
+                                    </div>
+                                    <a href="#" class="listings__bottom-link listings__bottom-link--place">Washington Ave. Manchester, Kentucky</a>
+                                    <a href="tel:912552678790" class="listings__bottom-link listings__bottom-link--tel">91 255 267 8790</a>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="newsletter">
+                <div class="container">
+                    <div class="newsletter__wrapper">
+                        <div class="newsletter__info">
+                            <div class="newsletter__info-content">
+                                <h2 class="popular__header-title newsletter__info-title">Get Our Monthly Newsletter</h2>
+                                <p class="newsletter__info-text">Select a category that best suits your interest. Use filters to customize your search and to find exactly what you want.</p>
+                                <div class="newsletter__info-inputs">
+                                    <input type="text" class="input__newsletter" placeholder="Enter email address">
+                                    <a href="#" class="btn btn--white">Subscribe</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="newsletter__photo">
+                            <img src="img/newsletter-img.png" alt="" class="img__newsletter-ph">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="how">
+                <div class="container">
+                    <div class="how__wrapper">
+                        <div class="how__photo">
+                            <img src="img/how-img.png" alt="" class="img__how-ph">
+                        </div>
+                        <div class="how__info">
+                            <h2 class="how__info-title">How It Works</h2>
+                            <p class="how__info-descr">Morbi mollis vestibulum sollicitudin. Nunc in eros a justo facilisis rutrum. Aenean id ullamcorper libero Vestibulum.</p>
+                            <div class="how__info-items">
+                                <div class="how__info-item">
+                                    <img src="img/how_item-1.png" alt="" class="img__how-item">
+                                    <div class="how__item-about">
+                                        <h3 class="how__about-title">Choose Your Category</h3>
+                                        <p class="how__about-text">Dolor sit amet consectetur adipisicing elit. Reprehenderit, illo ex esse...</p>
+                                    </div>
+                                </div>
+                                <div class="how__info-item">
+                                    <img src="img/how_item-1.png" alt="" class="img__how-item">
+                                    <div class="how__item-about">
+                                        <h3 class="how__about-title">Choose Your Category</h3>
+                                        <p class="how__about-text">Dolor sit amet consectetur adipisicing elit. Reprehenderit, illo ex esse...</p>
+                                    </div>
+                                </div>
+                                <div class="how__info-item">
+                                    <img src="img/how_item-1.png" alt="" class="img__how-item">
+                                    <div class="how__item-about">
+                                        <h3 class="how__about-title">Choose Your Category</h3>
+                                        <p class="how__about-text">Dolor sit amet consectetur adipisicing elit. Reprehenderit, illo ex esse...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="says">
+                <div class="container">
+                    <h2 class="says__title">What Our Customer Says About Us</h2>
+                    <div class="says__items">
+                        <div class="says__item">
+                            <div class="says__item-content">
+                                <img src="img/Quote.png" alt="" class="img__says-quote">
+                                <p class="says__item-text">I have traveled and explored several destinations using this platform, no doubt it is highly recommended for traveling because it is comfortable and the service is great.</p>
+                                <div class="says__item-profile">
+                                    <img src="img/says_profile.png" alt="" class="img__says-profile">
+                                    <div class="says__profile-info">
+                                        <h3 class="says__profile-name">Adam L. Brian</h3>
+                                        <p class="says__profile-job">Traveller</p>
+                                    </div>
+                                </div>
+                                <img src="img/Quote-2.png" alt="" class="img__says-quote-2">
+                            </div>
+                        </div>
+                        <div class="says__item">
+                            <div class="says__item-content">
+                                <img src="img/Quote.png" alt="" class="img__says-quote">
+                                <p class="says__item-text">I have traveled and explored several destinations using this platform, no doubt it is highly recommended for traveling because it is comfortable and the service is great.</p>
+                                <div class="says__item-profile">
+                                    <img src="img/says_profile.png" alt="" class="img__says-profile">
+                                    <div class="says__profile-info">
+                                        <h3 class="says__profile-name">Adam L. Brian</h3>
+                                        <p class="says__profile-job">Traveller</p>
+                                    </div>
+                                </div>
+                                <img src="img/Quote-2.png" alt="" class="img__says-quote-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="faqs">
+                <div class="container">
+                    <h2 class="popular__header-title faqs__title">Popular Listings</h2>
+                    <div class="faq">
+                        <div class="faq__question">
+                            <h3 class="faq__question-title">Consectetur adipiscing elit. Lacinia libero nulla sed adipiscing pulvinar viverra sit nunc?</h3>
+                            <svg width="15" height="10" viewBox="0 0 42 25">
+                                <path d="M3 3L21 23L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="faq__answer">
+                            <p class="faq__answer-text">Consectetur sed in sapien nisl. Facilisis mattis bibendum nec non. Justo, placerat aenean enim, non vestibulum vitae molestie vel nunc. A in etiam ac eu. Est odio commodo, habitant aliquet tellus volutpat maecenas volutpat massa. Ornare turpis in nulla praesent sit pellentesque cras lorem hac. Egestas faucibus pharetra, sed ut fermentum in purus. Pellentesque eu sit cursus quis sit fermentum tortor amet bibendum. </p>
+                        </div>
+                    </div>
+                    <div class="faq">
+                        <div class="faq__question">
+                            <h3 class="faq__question-title">Consectetur adipiscing elit. Lacinia libero nulla sed adipiscing pulvinar viverra sit nunc?</h3>
+                            <svg width="15" height="10" viewBox="0 0 42 25">
+                                <path d="M3 3L21 23L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="faq__answer">
+                            <p class="faq__answer-text">Consectetur sed in sapien nisl. Facilisis mattis bibendum nec non. Justo, placerat aenean enim, non vestibulum vitae molestie vel nunc. A in etiam ac eu. Est odio commodo, habitant aliquet tellus volutpat maecenas volutpat massa. Ornare turpis in nulla praesent sit pellentesque cras lorem hac. Egestas faucibus pharetra, sed ut fermentum in purus. Pellentesque eu sit cursus quis sit fermentum tortor amet bibendum. </p>
+                        </div>
+                    </div>
+                    <div class="faq">
+                        <div class="faq__question">
+                            <h3 class="faq__question-title">Consectetur adipiscing elit. Lacinia libero nulla sed adipiscing pulvinar viverra sit nunc?</h3>
+                            <svg width="15" height="10" viewBox="0 0 42 25">
+                                <path d="M3 3L21 23L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="faq__answer">
+                            <p class="faq__answer-text">Consectetur sed in sapien nisl. Facilisis mattis bibendum nec non. Justo, placerat aenean enim, non vestibulum vitae molestie vel nunc. A in etiam ac eu. Est odio commodo, habitant aliquet tellus volutpat maecenas volutpat massa. Ornare turpis in nulla praesent sit pellentesque cras lorem hac. Egestas faucibus pharetra, sed ut fermentum in purus. Pellentesque eu sit cursus quis sit fermentum tortor amet bibendum. </p>
+                        </div>
+                    </div>
+                    <div class="faq">
+                        <div class="faq__question">
+                            <h3 class="faq__question-title">Consectetur adipiscing elit. Lacinia libero nulla sed adipiscing pulvinar viverra sit nunc?</h3>
+                            <svg width="15" height="10" viewBox="0 0 42 25">
+                                <path d="M3 3L21 23L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="faq__answer">
+                            <p class="faq__answer-text">Consectetur sed in sapien nisl. Facilisis mattis bibendum nec non. Justo, placerat aenean enim, non vestibulum vitae molestie vel nunc. A in etiam ac eu. Est odio commodo, habitant aliquet tellus volutpat maecenas volutpat massa. Ornare turpis in nulla praesent sit pellentesque cras lorem hac. Egestas faucibus pharetra, sed ut fermentum in purus. Pellentesque eu sit cursus quis sit fermentum tortor amet bibendum. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__about">
+                        <a href="#" class="logo">
+                            <img src="img/logo_footer.svg" alt="" class="img__logo-footer">
+                        </a>
+                        <a href="tel:095555420" class="footer__about-link">Phone: <span>09 555 5420</span></a>
+                        <a href="mailto:info@listee.com" class="footer__about-link">Email: <span>info@listee.com</span></a>
+                        <a href="#" class="footer__about-link">Address: <span>Intersection 10 Hudson Yards, 26th Floor, New York, NY 10001</span></a>
+                    </div>
+                    <ul class="footer__items">
+                        <li class="footer__item">
+                            <h3 class="footer__item-title">Popular Categories</h3>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__item-link">Health care</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__item-link">Business</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__item-link">Education</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__item-link">Eat & Food</a>
+                        </li>   
+                    </ul>
+                    <ul class="footer__items">
+                        <li class="footer__item">
+                            <h3 class="footer__item-title">Quick Liks</h3>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__item-link">How It Works</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__item-link">Pricing Packages</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__item-link">Our Blog</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__item-link">Contact Us</a>
+                        </li>    
+                    </ul>
+                    <ul class="footer__items">
+                        <li class="footer__item">
+                            <h3 class="footer__item-title">Support</h3>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__item-link">Terms and Conditions</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__item-link">Privacy Policy</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__item-link">Faq & Updates</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__copyright">
+                    <p class="footer__copyright-text">© Listee 2022. All rights reserved</p>
+                    <div class="footer__copyright-social">
+                        <a href="#" class="footer__social-link">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

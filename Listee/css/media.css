@@ -1,0 +1,118 @@
+@media (max-width: 1252px){
+    .how__wrapper{
+        flex-direction: column-reverse;
+    }
+
+    .how__info{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1179px){
+    .browse__wrapper{
+        justify-content: center;
+    }
+
+    .browse__info{
+        flex-basis: 900px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 990px){
+
+    .newsletter__wrapper{
+        display: block;
+        text-align: center;
+    }
+
+    .img__newsletter-ph{
+        display: none;
+    }
+
+    .newsletter__info-inputs{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 930px){
+    /* BURGER MENU */
+
+    .menu-btn{
+       display: inline-block;
+       width: 50px;
+       height: 50px;
+       background-color: transparent;
+       order: 1;
+       border: none;
+       cursor: pointer;
+       position: relative;
+       z-index: 50;
+   }
+
+   .logo{
+       position: relative;
+       z-index: 50;
+   }
+
+   .nav__about{
+        position: relative;
+        z-index: 50;
+   }
+
+   .btn-line{
+       position: absolute;
+       left: 0;
+       width: 100%;
+       background-color: #000;
+       height: 2px;
+       transition: .3s ease-in;
+   }
+
+   .btn-line:nth-child(1){
+       top: 0;
+   }
+   .btn-line:nth-child(2){
+       top: 20px;
+   }
+   .btn-line:nth-child(3){
+       top: 20px;
+   }
+   .btn-line:nth-child(4){
+       top: 40px;
+   }
+   
+   .menu-open .btn-line:nth-child(1){
+       transform: scaleX(0);
+   }
+   .menu-open .btn-line:nth-child(2){
+       transform: rotate(45deg);
+   }
+   .menu-open .btn-line:nth-child(3){
+       transform: rotate(-45deg);
+   }
+   .menu-open .btn-line:nth-child(4){
+       transform: scaleX(0);
+   }
+
+   .nav__items{
+       position: absolute;
+       z-index: 1;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       top: 0;
+       background-color: #fff;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       gap: 30px;
+       transform: translateY(-100%); /*убирается с страницы*/
+       transition: .3s ease-in;
+   }
+
+   .menu-open .nav__items{
+       transform: translateY(0%); /*при клике добавляется бургер меню*/
+   }
+}
